@@ -148,6 +148,12 @@ tensorboard/
 .DS_Store
 Thumbs.db
 
+# Benchmark generated files (large binaries)
+benchmark/engines/
+benchmark/onnx/
+benchmark/data/
+benchmark/scripts/__pycache__/
+
 # BPE vocabulary files
 *.bpe
 *.vocab

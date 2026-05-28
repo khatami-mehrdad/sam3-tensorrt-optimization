@@ -1,0 +1,14 @@
+{
+  "label": "ONNX + TRT FP16",
+  "num_images": 49,
+  "num_warmup": 3,
+  "num_runs": 10,
+  "median_ms": 59.39,
+  "mean_ms": 59.4,
+  "best_ms": 59.09,
+  "worst_ms": 59.7,
+  "best_fps": 16.9,
+  "median_fps": 16.8,
+  "level": 1,
+  "engine": "/home/degirum/mehrdad/sam3/benchmark/engines/level1_fp16.plan"
+}

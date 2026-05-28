@@ -1,0 +1,36 @@
+{
+  "num_images": 49,
+  "prompt": "person",
+  "warmup": 5,
+  "pytorch_bf16": {
+    "ms_per_frame": 126.80459052932505,
+    "fps": 7.886149829636793,
+    "gpu_mb": 6656.0
+  },
+  "trt_sequential": {
+    "ms_per_frame": 64.8986600643518,
+    "fps": 15.40863862225239,
+    "gpu_mb": 3726.0,
+    "fidelity": {
+      "avg_cosine_similarity": 0.9896690391747182,
+      "min_cosine_similarity": 0.96721684250202,
+      "avg_max_abs_diff": 65.77398557079081,
+      "avg_mean_abs_diff": 1.1901979099731057
+    }
+  },
+  "trt_pipelined": {
+    "ms_per_frame": 63.56469901012523,
+    "fps": 15.73200244117745,
+    "gpu_mb": 5844.0,
+    "fidelity": {
+      "avg_cosine_similarity": 0.9896690391747182,
+      "min_cosine_similarity": 0.96721684250202,
+      "avg_max_abs_diff": 65.77398557079081,
+      "avg_mean_abs_diff": 1.1901979099731057
+    }
+  },
+  "speedup_sequential": 1.9538861111090577,
+  "speedup_pipelined": 1.9948901277598488,
+  "memory_reduction_sequential": 1.7863660762211486,
+  "memory_reduction_pipelined": 1.1389459274469542
+}

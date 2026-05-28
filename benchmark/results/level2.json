@@ -1,0 +1,14 @@
+{
+  "label": "+ onnxsim + polygraphy",
+  "num_images": 49,
+  "num_warmup": 3,
+  "num_runs": 10,
+  "median_ms": 59.37,
+  "mean_ms": 59.42,
+  "best_ms": 59.21,
+  "worst_ms": 59.92,
+  "best_fps": 16.9,
+  "median_fps": 16.8,
+  "level": 2,
+  "engine": "/home/degirum/mehrdad/sam3/benchmark/engines/level2_fp16.plan"
+}

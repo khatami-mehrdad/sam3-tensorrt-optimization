@@ -1,0 +1,14 @@
+{
+  "label": "Encoder/decoder split (pending, using level3_fp16_opt5.plan)",
+  "num_images": 49,
+  "num_warmup": 3,
+  "num_runs": 10,
+  "median_ms": 59.31,
+  "mean_ms": 59.32,
+  "best_ms": 59.07,
+  "worst_ms": 59.83,
+  "best_fps": 16.9,
+  "median_fps": 16.9,
+  "level": 4,
+  "engine": "/home/degirum/mehrdad/sam3/benchmark/engines/level3_fp16_opt5.plan"
+}

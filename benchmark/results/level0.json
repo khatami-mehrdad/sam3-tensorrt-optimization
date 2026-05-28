@@ -1,0 +1,13 @@
+{
+  "label": "PyTorch baseline",
+  "num_images": 49,
+  "num_warmup": 3,
+  "num_runs": 10,
+  "median_ms": 186.83,
+  "mean_ms": 187.04,
+  "best_ms": 186.28,
+  "worst_ms": 188.09,
+  "best_fps": 5.4,
+  "median_fps": 5.4,
+  "level": 0
+}

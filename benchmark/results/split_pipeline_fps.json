@@ -1,0 +1,32 @@
+{
+  "vision_encoder": {
+    "median_ms": 21.767799432078995,
+    "peak_gpu_mb": 2846.0,
+    "fps": 45.93941629792443
+  },
+  "text_encoder": {
+    "median_ms": 1.142284832894802,
+    "peak_gpu_mb": 2688.0,
+    "fps": 875.4383943501895
+  },
+  "decoder": {
+    "median_ms": 3.8221823051571846,
+    "peak_gpu_mb": 2888.0,
+    "fps": 261.63063929491864
+  },
+  "full_sequential": {
+    "median_ms": 25.56908953314026,
+    "peak_gpu_mb": 3034.0,
+    "fps": 39.10972264788285
+  },
+  "pipelined": {
+    "median_ms": 24.766458198428154,
+    "peak_gpu_mb": 3158.0,
+    "fps": 40.377190472211595
+  },
+  "text_cached_pipelined": {
+    "median_ms": 24.809281807392836,
+    "peak_gpu_mb": 3158.0,
+    "fps": 40.307494903057346
+  }
+}

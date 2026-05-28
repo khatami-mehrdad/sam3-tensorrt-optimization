@@ -1,0 +1,30 @@
+{
+  "num_images": 10,
+  "preprocessing": {
+    "cpu_ms": 29.182188864797354,
+    "gpu_ms": 0.2945872023701668,
+    "speedup": 99.0612919706137
+  },
+  "end_to_end_cpu": {
+    "ms": 54.743080446496606,
+    "fps": 18.26714886783462,
+    "gpu_mb": 3262.0
+  },
+  "end_to_end_gpu": {
+    "ms": 26.03543228469789,
+    "fps": 38.40919517160242,
+    "gpu_mb": 3262.0
+  },
+  "pipelined_gpu": {
+    "ms": 25.2402794547379,
+    "fps": 39.6192126871356,
+    "gpu_mb": 3344.0
+  },
+  "fidelity": {
+    "avg_preprocess_max_diff": 0.00784328579902649,
+    "max_preprocess_max_diff": 0.00784328579902649,
+    "avg_cosine_similarity": 0.9855866705023608,
+    "min_cosine_similarity": 0.9713211934800426,
+    "avg_max_abs_diff": 74.026171875
+  }
+}

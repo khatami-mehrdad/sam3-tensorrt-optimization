@@ -1,0 +1,14 @@
+{
+  "label": "+ builder opt level 5",
+  "num_images": 49,
+  "num_warmup": 3,
+  "num_runs": 10,
+  "median_ms": 59.17,
+  "mean_ms": 59.18,
+  "best_ms": 58.99,
+  "worst_ms": 59.43,
+  "best_fps": 17.0,
+  "median_fps": 16.9,
+  "level": 3,
+  "engine": "/home/degirum/mehrdad/sam3/benchmark/engines/level3_fp16_opt5.plan"
+}
